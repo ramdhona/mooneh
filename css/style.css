@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Asap&display=swap");
+* {
+    font-family: "Asap", sans-serif;
+}
+
+.btn-success {
+    background-color: #41c1a6;
+    /* background-color: transparent; */
+    border: 2px solid #112340;
+    border-radius: 10px;
+    color: #112340;
+    width: 150px;
+    height: 50px;
+    font-weight: 700;
+}
+
+
+/* .btn-success::before {
+    content: "";
+    z-index: -1;
+    background-color: #41c1a6;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    right: 121px;
+    border-radius: 10px;
+    top: 14px;
+} */
+
+.btn-success:hover {
+    background: none;
+    color: #112340;
+}
+
+.mooneh h1 {
+    font-size: 42px;
+    font-weight: 700;
+    color: #112340;
+}
+
+.mooneh p {
+    color: #7d8797;
+    font-size: 18px;
+}
+
+.pricing {
+    border: 2px solid #112340;
+    border-radius: 20px;
+    color: #112340;
+}
+
+.pricing .top {
+    border-bottom: 2px solid #112340;
+}
+
+.pricing h5 {
+    font-size: 24px;
+    color: #112340;
+}
+
+.pricing p {
+    color: #112340;
+    font-size: 18px;
+}
+
+.pricing .price {
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.pricing-starter {
+    background-color: #f6f5fb;
+}
+
+.btn-light {
+    background-color: #fff;
+    /* background-color: transparent; */
+    border: 2px solid #112340;
+    border-radius: 10px;
+    color: #112340;
+    height: 50px;
+    font-weight: 700;
+}
+
+.btn-light:hover {
+    background-color: #112340;
+    border: 2px solid #112340;
+    color: #fff;
+}
+
+.pricing .content li {
+    font-size: 16px;
+    color: #112340;
+    margin-bottom: 10px;
+}
+
+.pricing-platinum {
+    background-color: #ffce5d;
+}
+
+.sponsor {
+    margin-top: 80px;
+    background-color: #f8f9fc;
+}
+
+.sponsor p {
+    font-size: 18px;
+    color: #7d8797;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+    }
+}
